@@ -1,6 +1,8 @@
 # devotee_fetch
 ExpressionEngine developers can now easily fetch your stats and data from the devot:ee website.
 
+<a href='https://pledgie.com/campaigns/32600'><img alt='Click here to lend your support to: devot:ee Fetch and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/32600.png?skin_name=chrome' border='0' ></a>
+
 
 Fetch your public data from the devot:ee site for your addons.
 
