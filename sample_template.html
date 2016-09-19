@@ -1,0 +1,85 @@
+<div>
+	<ul>
+		{exp:devotee_fetch file="bbd-chopper"}
+
+			<li>Title: {dv_title}</li>
+			<li>Developer:
+				{dv_developer}
+					<ul>
+						<li>Name: {dv_developer_name}</li>
+						<li>Alt: {dv_developer_alt}</li>
+						<li>Links:
+							<ul>
+								{dv_developer_links}
+									<li>Title: {dv_link_title}</li>
+									<li>URL: {dv_link_url}</li>
+								{/dv_developer_links}
+							</ul>
+						</li>
+					</ul>
+				{/dv_developer}
+			</li>
+			<li>License: {dv_license}</li>
+			<li>Categories:
+				<ul>
+					{dv_categories}
+						<li>{dv_category}</li>
+					{/dv_categories}
+				</ul>
+			</li>
+			<li>Party: {dv_party}</li>
+			<li>Version Supported:
+				<ul>
+					{dv_version_support}
+						<li>{dv_version_name}: {dv_version_supported}</li>
+					{/dv_version_support}
+				</ul>
+			</li>
+			<li>Compatibility:
+				<ul>
+					{dv_compatibility}
+						<li>{dv_component}: {dv_compatible}</li>
+					{/dv_compatibility}
+				</ul>
+			</li>
+			<li>Requirements:
+				<ul>
+					{dv_requirements}
+						<li>{dv_requirement}: {dv_required}</li>
+					{/dv_requirements}
+				</ul>
+			</li>
+			<li>Summary: {dv_summary}</li>
+			<li>Description: {dv_description}</li>
+			<li>Links:
+				<ul>
+					{dv_links}
+						<li>{dv_link_title}: {dv_link_url}</li>
+					{/dv_links}
+				</ul>
+			</li>
+			<li>Hooks:
+				<ul>
+					{dv_hooks}
+						<li>{dv_hook}</li>
+					{/dv_hooks}
+				</ul>
+			</li>
+			<li>Rating: {dv_rating}</li>
+			<li>Votes: {dv_votes}</li>
+			<li>Favorites: {dv_favorites}</li>
+			<li>Reviews:
+				<ul>
+					{dv_reviews}
+						<li>Author Name: {dv_author_name}</li>
+						<li>Author URL: {dv_author_url}</li>
+						<li>Author Photo: {dv_author_photo}</li>
+						<li>Review Date: {dv_date}</li>
+						<li>Review: {dv_review}</li>
+					{/dv_reviews}
+				</ul>
+			</li>
+		{/exp:devotee_fetch}
+	</ul>
+
+</div>
