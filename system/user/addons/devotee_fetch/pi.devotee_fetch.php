@@ -50,7 +50,7 @@ class Devotee_fetch
       {
          $developer_links[] = array('dv_link_title' => $developer_link['title'], 'dv_link_url' => $developer_link['url']);
       }
-      $developer[] = array('developer_name' => $row['developer']['developer_name'], 'developer_alt' => $row['developer']['developer_alt'], 'developer_links' => $developer_links);
+      $developer[] = array('dv_developer_name' => $row['developer']['developer_name'], 'dv_developer_alt' => $row['developer']['developer_alt'], 'dv_developer_links' => $developer_links);
 
       $categories = array();
       foreach ($row['categories'] as $category)
