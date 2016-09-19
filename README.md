@@ -39,12 +39,12 @@ Fetch your public data from the devot:ee site for your addons.
             - "url" - {dv_link_url}
          - "hooks" - {dv_hooks}{/dv_hooks}
             - "hook" - {dv_hook}
+         - "rating_percentage" - {dv_rating_percentage}
          - "rating" - {dv_rating}
          - "votes" - {dv_votes}
          - "favorites" - {dv_favorites}
          - "reviews" - {dv_reviews}{/dv_reviews}
             - "author_name" - {dv_author_name}
             - "author_url" - {dv_author_url}
-            - "author_photo" - {dv_author_photo}
             - "date" - {dv_date}
             - "review" - {dv_review}
